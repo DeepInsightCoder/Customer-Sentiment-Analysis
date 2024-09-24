@@ -29,7 +29,6 @@ The project achieved an accuracy of 77% using logistic regression on the sentime
 This reflects the model's performance in predicting customer sentiment based on pricing feedback.
 
 ## Manual
-[Download the project manual here]## Project Manual
 You can download the project manual [here](https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis/blob/main/Project_Manual.docx).
 .
 

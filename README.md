@@ -7,7 +7,10 @@ The goal is to extract insights from customer feedback and apply them to adjust 
 
 ## Data Sources
 - Sentiment140 Dataset from Kaggle
-- Web Reviews from Daraz
+- Web Reviews
+## How to use the data
+
+Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR`:
 
 ## Instructions for Running the Project
 1. Clone the repository:https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis.git

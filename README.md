@@ -11,7 +11,7 @@ The following datasets will be utilized in this project:
 - **Sentiment140**: Pre-existing sentiment analysis dataset, providing insights into customer sentiments.
 - **Product Rating Datasets**: Data containing ratings and reviews that provide insights into customer satisfaction and pricing perception.
   
-## How to use the data(Sentiment140)
+## How to use the data
 
 Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR`:
 ## Objectives

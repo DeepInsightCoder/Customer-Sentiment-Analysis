@@ -1,16 +1,37 @@
 # Customer Sentiment Analysis for Custom Pricing Models
 
-This project analyzes customer sentiment to inform pricing models using machine learning techniques. 
-
-## Objective
-The goal is to extract insights from customer feedback and apply them to adjust pricing strategies.
+## Project Overview
+This project aims to analyze customer sentiment data from various sources to develop insights that can inform dynamic pricing models. By identifying trends in customer feedback, businesses can adjust their pricing strategies to better meet customer expectations and enhance sales.
 
 ## Data Sources
-- Sentiment140 Dataset from Kaggle
-- Web Reviews
-## How to use the data
+The following datasets will be utilized in this project:
+- **Twitter Scraping Tweets Dataset**: Sentiment data from user-generated tweets regarding pricing.
+- **Trustpilot Reviews Data**: Customer feedback related to product pricing and quality.
+- **Amazon Reviews**: Customer reviews and ratings for various products, focusing on pricing aspects.
+- **Sentiment140**: Pre-existing sentiment analysis dataset, providing insights into customer sentiments.
+- **Product Rating Datasets**: Data containing ratings and reviews that provide insights into customer satisfaction and pricing perception.
+- 
+## How to use the data(Sentiment140)
 
 Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR`:
+## Objectives
+
+- Analyze customer sentiment data across multiple platforms.
+- Develop insights into how sentiment impacts pricing models.
+- Implement a comparison of different sentiment analysis models to identify the most effective one.
+- Create a Streamlit web app to visualize sentiment analysis results and provide an interactive experience.
+
+## Methodology
+1. **Data Collection**: Gather data from the above-mentioned sources.
+2. **Data Preprocessing**: Clean and prepare the data for analysis.
+3. **Sentiment Analysis**: Use various sentiment analysis techniques to classify customer feedback.
+4. **Model Comparison**: Evaluate multiple models to identify the best performing one.
+5. **Visualization**: Use Streamlit to develop a web app that presents findings and insights in an interactive format.
+
+## Tools and Technologies
+- **Programming Language**: Python
+- **Libraries**: pandas, numpy, scikit-learn, TextBlob, VADER, Tweepy, BeautifulSoup, praw, Streamlit
+- **Data Visualization**: Matplotlib, Seaborn
 
 ## Instructions for Running the Project
 1. Clone the repository:https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis.git
@@ -25,18 +46,13 @@ tweepy
 beautifulsoup4
 praw
 3. pip install -r requirements.txt
+4. streamlit run app.py
+
 
 ## Results
 The project achieved an accuracy of 77% using logistic regression on the sentiment data.
 
 This reflects the model's performance in predicting customer sentiment based on pricing feedback.
-
-## Manual
-You can download the project manual [here](https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis/blob/main/Project_Manual.docx).
-.
-
-
-
 
 
 

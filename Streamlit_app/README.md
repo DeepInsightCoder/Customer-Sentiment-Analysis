@@ -23,11 +23,11 @@ Clone this repository to your local machine or download the files.
 
 Navigate to the directory where the streamlit_app.py file is located.
 
-# Run the Streamlit app using the following command: streamlit run streamlit_app.py
+ Run the Streamlit app using the following command: streamlit run streamlit_app.py
 
 Open your web browser and go to the URL provided in the terminal
 
-# Upload your CSV file with the following columns:
+ Upload your CSV file with the following columns:
 
 Product: The name of the product.
 Price: The original price of the product.

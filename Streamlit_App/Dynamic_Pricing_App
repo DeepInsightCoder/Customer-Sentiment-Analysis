@@ -1,0 +1,70 @@
+# Sentiment-Based Dynamic Pricing App
+
+This is a **Sentiment-Based Dynamic Pricing** web app built using **Streamlit**. The app allows business users to upload a CSV file containing product prices, customer sentiment data, and dynamically adjusts the pricing based on customer sentiment. It helps businesses optimize pricing strategies based on customer feedback, allowing for more data-driven decision-making.
+
+## Features
+- Upload CSV files with columns: **Product**, **Price**, and **Sentiment**.
+- Automatically adjust prices based on sentiment scores:
+  - **Positive Sentiment** (+1) increases price by 10%.
+  - **Negative Sentiment** (-1) decreases price by 10%.
+  - **Neutral Sentiment** (0) keeps the price unchanged.
+- Display a preview of the data with adjusted prices.
+- Download the adjusted pricing data as a CSV file.
+
+## How It Works
+1. Upload a CSV file that contains the following columns:
+   - **Product**: Name or ID of the product.
+   - **Price**: Original price of the product.
+   - **Sentiment**: Sentiment score for the product (-1 for negative, 0 for neutral, +1 for positive).
+   
+2. The app processes the file and adjusts prices based on the sentiment values.
+3. You can see a preview of the adjusted data.
+4. Option to download the new dataset with adjusted prices.
+
+## Example CSV Format
+```csv
+Product,Price,Sentiment
+Product A,100,1
+Product B,150,-1
+Product C,200,0
+
+## Installation
+
+To run this app locally, follow these steps:
+
+1. **Clone the repository:**
+  
+   git clone https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis.git
+   cd Dynamic_Pricing_App
+
+2. **Install the required dependencies:**
+   Make sure you have Python installed. Then, run the following command:
+  
+   pip install -r requirements.txt
+  
+
+3. **Run the app:**
+  
+   streamlit run Dynamic_Pricing_App.py
+
+4. Open your browser and go to `http://localhost:8501` to access the app.
+
+## Requirements
+This app uses the following libraries:
+- `streamlit`
+- `pandas`
+- `matplotlib`
+
+## Usage
+1. Upload your CSV file by clicking the "Browse files" button.
+2. Wait while the app processes the data and adjusts the prices.
+3. View the adjusted prices on the dashboard.
+4. Download the adjusted pricing data by clicking the "Download Adjusted Pricing CSV" button.
+
+## Future Enhancements
+- Adding visualizations for sentiment distribution.
+- Incorporating more advanced pricing models based on other business metrics.
+- Multi-language support for global users.
+
+## License
+This project is licensed under the MIT License.

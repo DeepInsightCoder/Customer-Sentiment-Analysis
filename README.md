@@ -46,11 +46,11 @@ tweepy
 beautifulsoup4
 praw
 3. pip install -r requirements.txt
-4. streamlit run app.py
-
+4. streamlit run Dynamic_Pricing_App.py
+**App Url**:https://customer-sentiment-analysis-uefgaxrq9sxdbftcsfxzji.streamlit.app/
 
 ## Results
-The project achieved an accuracy of 77% using logistic regression on the sentiment data.
+The project achieved an accuracy of 98% using logistic regression on the sentiment data.
 
 This reflects the model's performance in predicting customer sentiment based on pricing feedback.
 

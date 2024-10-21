@@ -35,16 +35,7 @@ Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR
 
 ## Instructions for Running the Project
 1. Clone the repository:https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis.git
-2. Install the necessary libraries:pip install pandas numpy scikit-learn nltk matplotlib seaborn tweepy beautifulsoup4 praw
-pandas
-numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
-tweepy
-beautifulsoup4
-praw
+2. Install the necessary libraries:pip install pandas numpy scikit-learn nltk matplotlib seaborn.
 3. pip install -r requirements.txt
 4. streamlit run Dynamic_Pricing_App.py
 **App Url**:https://customer-sentiment-analysis-uefgaxrq9sxdbftcsfxzji.streamlit.app/

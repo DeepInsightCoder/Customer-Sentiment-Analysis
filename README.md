@@ -34,7 +34,7 @@ Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR
 - **Data Visualization**: Matplotlib, Seaborn
 
 ## Instructions for Running the Project
-1. Clone the repository:https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis/Customer Sentiment PricingV3
+1. Clone the repository:https://github.com/DeepInsightCoder/Customer-Sentiment-Analysis/tree/main/Customer%20Sentiment%20PricingV3
 2. Install the necessary libraries:pip install pandas numpy scikit-learn nltk matplotlib seaborn.
 3. pip install -r requirements.txt
 4. streamlit run Dynamic_Pricing_App.py

@@ -1,4 +1,4 @@
-# Customer Sentiment Analysis for Custom Pricing Models
+# Sentiment Analysis for Pricing Strategy in E-Commerce
 
 ## Project Overview
 This project aims to analyze customer sentiment data from various sources to develop insights that can inform dynamic pricing models. By identifying trends in customer feedback, businesses can adjust their pricing strategies to better meet customer expectations and enhance sales.

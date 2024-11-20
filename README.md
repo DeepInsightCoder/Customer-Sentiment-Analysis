@@ -42,7 +42,7 @@ Download the zipped CSV file and extract it using a tool like `unzip` or `WinRAR
 **App Url**:https://customer-sentiment-analysis-uefgaxrq9sxdbftcsfxzji.streamlit.app/
 
 ## Results
-The project achieved an accuracy of 98% using logistic regression on the sentiment data.
+The project achieved an accuracy of 99% using logistic regression on the sentiment data.
 
 This reflects the model's performance in predicting customer sentiment based on pricing feedback.
 
